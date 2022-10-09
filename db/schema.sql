@@ -14,9 +14,7 @@ CREATE TABLE product
 {
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(30) NOT NULL,
-    -- TO DO: how to validate that is decimal? 
     price DECIMAL NOT NULL,
-    -- TO DO: how to validate numeric?
     stock INT NOT NULL DEFAULT 10, 
     category_id INT, 
     FOREIGN KEY (category_id) REFERENCES category(id)
