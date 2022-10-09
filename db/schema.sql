@@ -28,7 +28,7 @@ CREATE TABLE tag
     tag_name VARCHAR(30)
 );
 
-CREATE TABLE productTag
+CREATE TABLE product_tag
 (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
     product_id INT, 
